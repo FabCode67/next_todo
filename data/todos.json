@@ -1,0 +1,16 @@
+{
+    "todos": [
+        {
+            "id": "1",
+            "text": "create the bests"
+        },
+        {
+            "id": "2",
+            "text": "create the greats"
+        },
+        {
+            "id": "3",
+            "text": "create the beggers"
+        }
+    ]
+}
