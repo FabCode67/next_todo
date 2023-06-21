@@ -2,8 +2,23 @@
   "todo": [
     {
       "id": "d8315885-d7ba-4c52-a515-d043cad7630f",
-      "text": "go to school",
-      "checked": true
+      "text": "back to school",
+      "checked": false
+    },
+    {
+      "id": "aa4f88a0-db71-431a-bc01-807fca49d12e",
+      "text": "get launch ",
+      "checked": false
+    },
+    {
+      "id": "8661eb80-e06a-4a0a-8cba-6b59677c2393",
+      "text": "go to bed",
+      "checked": false
+    },
+    {
+      "id": "40f61f4a-9679-4b9e-93d4-90ee566d800c",
+      "text": "morning breakfast",
+      "checked": false
     }
   ]
 }
