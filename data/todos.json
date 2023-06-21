@@ -1,16 +1,9 @@
 {
-    "todos": [
-        {
-            "id": "1",
-            "text": "create the bests"
-        },
-        {
-            "id": "2",
-            "text": "create the greats"
-        },
-        {
-            "id": "3",
-            "text": "create the beggers"
-        }
-    ]
+  "todo": [
+    {
+      "id": "d8315885-d7ba-4c52-a515-d043cad7630f",
+      "text": "go to school",
+      "checked": true
+    }
+  ]
 }

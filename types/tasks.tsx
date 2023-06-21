@@ -1,4 +1,5 @@
 export interface ITask {
-    id: any,
-    text : any,
+    id: string,
+    text : string
+    checked: boolean
 }
