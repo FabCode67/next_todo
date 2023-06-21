@@ -46,14 +46,13 @@ const Task: React.FC<TaskProps> = ({ task }) => {
   };
 
   return (
-    <tr key={task.id}>
+    <><tr key={task.id}>
       <td className='border-b-2 p-3 text-left border-gray-200'>
         <input
           type='checkbox'
           className={`form-checkbox h-5 w-5 text-gray-600 ${task.checked ? 'checked' : ''}`}
           checked={task.checked}
-          onChange={handleCheckboxChange}
-        />
+          onChange={handleCheckboxChange} />
       </td>
       <td className={`border-b-2 p-3 text-left border-gray-200 ${task.checked ? 'line-through' : ''}`}>
         {editMode ? (
@@ -61,8 +60,7 @@ const Task: React.FC<TaskProps> = ({ task }) => {
             type='text'
             className='w-full border-2 border-gray-200 rounded-md p-2'
             value={updatedText}
-            onChange={(e) => setUpdatedText(e.target.value)}
-          />
+            onChange={(e) => setUpdatedText(e.target.value)} />
         ) : (
           task.text
         )}
@@ -91,6 +89,8 @@ const Task: React.FC<TaskProps> = ({ task }) => {
         )}
       </td>
     </tr>
+
+      </>
   );
 };
 
