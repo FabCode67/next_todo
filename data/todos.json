@@ -1,23 +1,28 @@
 {
   "todo": [
     {
-      "id": "d8315885-d7ba-4c52-a515-d043cad7630f",
-      "text": "back to school",
+      "id": "2c5a7174-6e12-415d-9be7-459fd22cff59",
+      "text": "wake app in the morning",
+      "checked": true
+    },
+    {
+      "id": "c3e7ea7a-1560-4a5b-8074-a8465fdac2a9",
+      "text": "get breakfast",
+      "checked": true
+    },
+    {
+      "id": "503654f6-edc0-4362-9d5b-b9329db0cbda",
+      "text": "come to school",
       "checked": false
     },
     {
-      "id": "aa4f88a0-db71-431a-bc01-807fca49d12e",
-      "text": "get launch ",
+      "id": "a1cbf51b-52e5-4628-9e0a-60c627a57fd7",
+      "text": "prepare meeting",
       "checked": false
     },
     {
-      "id": "f61d49bf-0d2c-4029-90b4-36ba0f599e7c",
-      "text": "jjj",
-      "checked": false
-    },
-    {
-      "id": "e9c87f05-79cc-438b-8598-c110de10ef55",
-      "text": "jxdgfch cgdhfgjhk gdhfjg cgdhfjg",
+      "id": "6c580e0f-8718-4f35-9de9-85394e416810",
+      "text": "have a meer",
       "checked": false
     }
   ]
