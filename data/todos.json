@@ -3,7 +3,7 @@
     {
       "id": "2c5a7174-6e12-415d-9be7-459fd22cff59",
       "text": "wake app in the morning",
-      "checked": true
+      "checked": false
     },
     {
       "id": "c3e7ea7a-1560-4a5b-8074-a8465fdac2a9",
@@ -16,13 +16,13 @@
       "checked": false
     },
     {
-      "id": "a1cbf51b-52e5-4628-9e0a-60c627a57fd7",
-      "text": "prepare meeting",
+      "id": "6c580e0f-8718-4f35-9de9-85394e416810",
+      "text": "have a meet to day",
       "checked": false
     },
     {
-      "id": "6c580e0f-8718-4f35-9de9-85394e416810",
-      "text": "have a meer",
+      "id": "40840abe-8b28-45c1-acae-6d56f83b8a75",
+      "text": "ambroise",
       "checked": false
     }
   ]
