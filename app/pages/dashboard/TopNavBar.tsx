@@ -17,7 +17,7 @@ const TopNavBar = () => {
                     </div>
                     <div className='flex space-x-2'>
                         <div className='ff rounded-full h-12 w-12 bg-white'>
-                            <img src='https://media.licdn.com/dms/image/D4E03AQFutT-xE8IiKg/profile-displayphoto-shrink_800_800/0/1641369312185?e=2147483647&v=beta&t=4IcGq1fhJ6bhC35z3Jl8n1-sQdOMo4CohQYNZVZM1Vk' alt='profile' className='rounded-full h-12 w-12' />
+                            <img src='https://media.licdn.com/dms/image/D4E35AQFddvOb8IKOCQ/profile-framedphoto-shrink_400_400/0/1677736736973?e=1688313600&v=beta&t=ZeKqVqC-ZdxQHdwF1X8jn3HRXXgQ9CSkgghPacDrlsc' alt='profile' className='rounded-full h-12 w-12' />
                         </div>
                         <div className='text-sm mt-1'>
                             <p className='text-sm'>Fabrice</p>
