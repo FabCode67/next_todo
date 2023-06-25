@@ -19,7 +19,7 @@ export default function Dashboard() {
       </div>
       <div className="main float-right w-full ml-[15%]">
         <TopNavBar />
-        <div className="main__content flex flex-col justify-between space-y-4 p-4 bg-slate-100 h-screen">
+        <div className="main__content flex flex-col justify-between space-y-4 p-4 bg-slate-100">
           <div className="grid grid-cols-4 gap-3">
             <div className="bg-white p-4 rounded-lg">
               <div className='flex flex-col space-y-4'>

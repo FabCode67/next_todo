@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import { Chart } from "chart.js";
+import { BsThreeDotsVertical } from "react-icons/bs";
 const FilledLineChart =() => {
     useEffect(() => {
       const canvas = document.getElementById('myChart') as HTMLCanvasElement | null;
@@ -28,7 +29,18 @@ const FilledLineChart =() => {
 
     return (
         <>
-            {/* Filled line chart */}
+             <div className=" border rounded-xl p-2" >
+      <div className="p-1 justify-between">
+        <div className="flex items-center text-center justify-between">
+          <div className="">Total patient visit</div>
+          <div className="flex items-center text-center justify-between space-x-5">
+            <div>Monthly</div>
+            <div>
+              <BsThreeDotsVertical />
+            </div>
+            </div>
+          </div>
+      </div>
             <div className="flex h-full w-full flex-col">
         <div className="canv_border h-full w-full mx-auto my-auto">
           <div className="canv border pt-0 h-[50vh] rounded-xl my-auto mx-auto shadow-xl">
@@ -37,6 +49,7 @@ const FilledLineChart =() => {
             </div>
           </div>
         </div>
+      </div>
       </div>
         </>
     )
