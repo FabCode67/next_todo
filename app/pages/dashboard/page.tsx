@@ -97,7 +97,7 @@ export default function Dashboard() {
             </div>
             <div className='flex flex-col justify-between  w-[30%] p-2 space-y-2'>
               <div className='flex flex-col h-[60%] w-full justify-between'>
-            <CircledChart />
+            <CircledChart x={false} y={false} />
               </div>
               <div className='flex flex-col h-[40%] w-full justify-between'>
               <HorizantalBarChart />

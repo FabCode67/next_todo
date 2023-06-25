@@ -4,7 +4,10 @@ import { useEffect } from "react"
 import { Chart } from "chart.js";
 const LineChart = () => {
   useEffect(() => {
-    var ctx = document.getElementById('lineChart').getContext('2d');
+    const canvas = document.getElementById('lineChart') as HTMLCanvasElement | null;
+    if (canvas) {
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
     var lineChart = new Chart(ctx, {
       type: 'line',
       data: {
@@ -19,6 +22,7 @@ const LineChart = () => {
         ]
       },
     });
+  }}
   }, [])
   return (
     <>

@@ -5,7 +5,10 @@ import Chart from "chart.js";
 
 const HorizantalBarChart = () => {
   useEffect(() => {
-    var ctx = document.getElementById("myHorizontal").getContext("2d");
+    const canvas = document.getElementById('myHorizontal') as HTMLCanvasElement | null;
+    if (canvas) {
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
     var myHorizontal = new Chart(ctx, {
       type: "horizontalBar",
       data: {
@@ -21,6 +24,7 @@ const HorizantalBarChart = () => {
         ],
       },
     });
+}}
   }, []);
 
   return (

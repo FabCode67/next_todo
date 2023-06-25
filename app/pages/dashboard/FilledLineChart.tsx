@@ -4,8 +4,11 @@ import { useEffect } from "react"
 import { Chart } from "chart.js";
 const FilledLineChart =() => {
     useEffect(() => {
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var myChart = new Chart(ctx, {
+      const canvas = document.getElementById('myChart') as HTMLCanvasElement | null;
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        if (ctx) {
+      var myChart = new Chart(ctx, {
             type: 'line',
             data: {
                 labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
@@ -18,6 +21,8 @@ const FilledLineChart =() => {
                 ]
             },
         });
+      }
+    }
     }, [])
 
 
